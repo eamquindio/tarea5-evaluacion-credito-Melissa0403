@@ -97,6 +97,7 @@ public class EvaluacionCredito {
             return (tieneCodedor&&cuotaMensual<=ingresosMensuales*0.25);
         }
         if (puntajeCredito>=700&&cuotaMensual<=ingresosMensuales*0.30){
+            return true;
 
         }
 
